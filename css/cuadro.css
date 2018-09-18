@@ -1,0 +1,100 @@
+.cuadrito{
+    border: red solid 1px;
+    background-color: rgb(20, 120, 167);
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 600px;
+    margin-left: -25%;
+    height: 600px;
+    margin-top: 9%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+	.cuadrito{
+        color: #fff;
+        background-color: #664cac;
+        position: absolute;
+        top:0%;
+        left:50%;
+   
+        width:500px;
+  
+        margin-left:-25%;
+    
+        height:500px;
+        margin-top: 9%;
+        padding: 5px;
+
+        
+	}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+	.cuadrito{
+        color: #fff;
+        background-color: #978a10;
+        position: absolute;
+        top:50%;
+        left:50%;
+   
+        width:400px;
+  
+        margin-left:-25%;
+    
+        height:400px;
+        margin-top: -25%;
+        padding: 5px;
+
+        
+	}
+
+}
+@media only screen and (max-width: 600px){
+	.cuadrito{
+        color: #fff;
+        background-color: #55202c;
+        position: absolute;
+        margin-left: -25%;
+        top:50%;
+        left:50%;
+   
+        width:200px;
+  
+        margin-left:-25%;
+    
+        height:200px;
+        margin-top: -25%;
+        padding: 5px;
+
+        
+	}
+
+}
+
+@media only screen and (max-width: 400px){
+	.cuadrito{
+        color: #fff;
+        background-color: #037f8f;
+
+        position: absolute;
+        top:50%;
+        left:25%;
+   
+        width:50px;
+  
+        margin-left:25%;
+    
+        height:50px;
+        margin-top: -25%%;
+        padding: 5px;
+
+        
+	}
+
+}
