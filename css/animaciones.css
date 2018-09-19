@@ -1,0 +1,48 @@
+@keyframes mianimacion {
+    0%  {
+          background-color: red;
+          border-radius:0%;
+          margin-left:0px;
+        }
+    25% {
+          background-color: yellow;
+          border-radius:50%;
+          margin-left:200px;
+        }
+    50%  {
+          background-color: blue;
+          border-radius:0%;
+          margin-left:0px;
+        }
+    75% {
+          background-color: green;
+          border-radius:50%;
+          margin-left:200px;
+        }
+    100% {
+      background-color: peru;
+      border-radius:0%;
+      margin-left:0px;
+    }
+}
+
+.animated-object{
+  width:100px;
+  height:100px;
+  background-color:peru;
+  border-radius: 2s;
+}
+
+#check:checked ~ .animated-object {
+  animation-name: mianimacion;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;  
+}
+
+#check-paused:checked ~ .animated-object:nth-of-type(1){
+  animation-play-state: paused;
+}
+
+#otro-id:checked ~ .animated-object:nth-of-type(2){
+  animation-play-state: paused;
+}
